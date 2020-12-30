@@ -3,7 +3,6 @@
 	<files id="native-toolkit-mojoal" >
 		
 		<compilerflag value="-I${SDL_PATH}/include/" />
-		<compilerflag value="-I${SDL_PATH}/include/" />
 		<compilerflag value="-I${SDL_PATH}/include/configs/default/" unless="windows || mac || linux || rpi"/>
 		<compilerflag value="-I${SDL_PATH}/include/configs/linux/" if="linux" unless="rpi"/>
 		<compilerflag value="-I${SDL_PATH}/include/configs/windows/" if="windows"/>
